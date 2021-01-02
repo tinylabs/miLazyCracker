@@ -40,7 +40,7 @@ fi
 )
 
 # install Hardnested Attack Tool
-[ -d crypto1_bs ] || git clone https://github.com/aczid/crypto1_bs
+[ -d crypto1_bs ] || git clone https://github.com/tinylabs/crypto1_bs.git
 (
     cd crypto1_bs || exit 1
     git reset --hard
